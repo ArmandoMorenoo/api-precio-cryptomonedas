@@ -1,0 +1,56 @@
+*{
+    --color: #cca7a7;
+    --bg: #856F6F;
+}
+body {
+    font-family: 'Poppins';
+    background: var(--bg);
+    color: var(--color);
+}
+.titulo {
+    display: inline-block;
+    font-weight: 600;
+    margin: 28px 10px 10px;
+    border-radius: 50px;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #786464, #8e7777);
+    box-shadow: 7px 7px 14px #645353,
+        -7px -7px 14px #a68b8b;
+}
+.input {
+    width: 40%;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    color: var(--color);
+    padding: 12px;
+    border-radius: 48px;
+    background: #856f6f;
+    box-shadow: inset 4px 4px 12px #645353,
+                inset -4px -4px 12px #a68b8b;
+}
+.input::placeholder {
+    text-align: center;
+    color: var(--color);
+    background-image: url(../public/search.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 1rem center;
+    opacity: .6;
+}
+.input:focus {
+    text-align: center;
+}
+.tabla {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    padding: 40px 80px;
+    border-radius: 20px;
+    background: #856f6f;
+    box-shadow: inset 7px 7px 15px #645353,
+                inset -7px -7px 15px #a68b8b;
+}
+.titulos-tabla{
+    font-size: 20px;
+}
