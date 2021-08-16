@@ -3,7 +3,7 @@
     <div class="">
       <!-- Título de la página -->
       <div class="text-center">
-        <h1 class="text-center px-5 py-2 titulo">Precios de Critomonedas</h1>
+        <h1 class="text-center px-5 py-2 titulo">Precio de Critomonedas</h1>
       </div>
 
       <!-- Barra de búsqueda -->
