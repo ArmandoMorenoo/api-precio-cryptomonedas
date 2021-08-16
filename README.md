@@ -1,4 +1,4 @@
-# app-food
+# Precios de las principales 100 Criptomonedas
 
 ## Project setup
 ```
